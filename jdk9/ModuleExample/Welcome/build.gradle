@@ -1,0 +1,5 @@
+
+dependencies {
+    implementation project(':jdk9:ModuleExample:HelloYoutube')
+    implementation project(':jdk9:ModuleExample:HelloWorld')
+}
