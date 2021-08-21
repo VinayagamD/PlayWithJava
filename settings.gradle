@@ -17,4 +17,5 @@ findProject(':jdk10:apifeatures')?.name = 'apifeatures'
 include 'jdk11'
 include 'OOPs'
 include 'nio'
+include 'DesignPattern'
 
