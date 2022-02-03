@@ -12,22 +12,4 @@ public class BankService {
         return 0;
     }
 
-    public void printPassbook(){
-        // update transaction info in passbook
-    }
-
-    public void getLoanInterestInfo(String loanType){
-        switch (loanType) {
-            case "homeLoan", "personalLoan", "car" -> {
-                // do some job
-            }
-        }
-    }
-
-    public void sendOTP(String medium) {
-        if(medium.equals("email")) {
-            // write email related logic
-            // use Java Mail SenderAPI
-        }
-    }
 }

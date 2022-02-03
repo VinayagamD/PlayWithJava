@@ -11,7 +11,7 @@ subprojects {
 
 
     dependencies {
-        testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
     }
 
     test {
@@ -19,7 +19,7 @@ subprojects {
     }
 
     java {
-        sourceCompatibility JavaVersion.VERSION_16
-        targetCompatibility JavaVersion.VERSION_16
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
