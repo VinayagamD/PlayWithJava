@@ -32,4 +32,6 @@ include 'GlideRose'
 include 'CleanCode:GlideRose'
 findProject(':CleanCode:GlideRose')?.name = 'GlideRose'
 include 'Junit5'
+include 'Junit5:mockito'
+findProject(':Junit5:mockito')?.name = 'mockito'
 
